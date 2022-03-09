@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abouts</title>
+    <style type="text/css">
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+
+        #fclass{
+             border: 2px solid blue;
+             background-color: #6dd643;
+
+        }
+    </style>
+    
+</head>
+<body>
+   <p style="text-align: center" title="Welcome message"> Welcome!</p>
+   <h2 style="text-align: center">About Us</h2>
+   <img src="assets/images/ss.jpg" alt="logo" style="width:100px;height:100px;" ><br>
+  <video width="320" height="240" controls>
+    <source src="assets/videos/Mayback1.mp4" type="video/mp4">
+   
+    </video>
+
+    <hr>
+          
+    <!-- tables in html -->
+    <table style="border:1px solid;">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Class</th>
+            <th>Roll</th>
+            <th>Address</th>
+        
+
+        </tr>
+
+        <tr>
+            <td>Mayback</td>
+            <td>20</td>
+            <td>10</td>
+            <td>10</td>
+            <td>Dhaka</td>
+        </tr>
+        <tr>
+            <td>Mayback</td>
+            <td>20</td>
+            <td>10</td>
+            <td>10</td>
+            <td>Dhaka</td>
+        </tr>
+
+        <tr>
+            <td>Mayback</td>
+            <td>20</td>
+            <td>10</td>
+            <td>10</td>
+            <td>Dhaka</td>
+        </tr>
+    </table>
+
+    <br>
+    <table id="fclass">
+        <tr>
+            <th>Name</th>
+            <th>DOB</th>
+            <th>Class</th>
+            <th>Roll</th>
+            <th>Address</th>
+        </tr>
+    </table>
+<br>
+
+<p>
+    <a href="contact.html">Click</a>
+    <a href="mailto:kpin463@gmail.com"> Mail me</a>
+    <a href="tel:0554545"> Call me</a>
+</p>
+
+<p>
+    <ol>
+        <li>Home</li>
+        <li>About</li>
+        <li>COntact</li>
+    </ol>
+
+    <ul style="list-style-type:lower-roman;">
+
+        <li>Home</li>
+        <li>About</li>
+        <li>COntact</li>
+    </ul>
+</p>
+    <form  action="" method="post" enctype="multipart/form-data">
+
+        <label >Fullname</label>
+        <input type="text" placeholder="fullname" name="name">
+        <input type="email" placeholder="enter email" name="email">
+        <input type="date"  name="dob">
+        <input type="time"  name="time">
+        <input type="number" placeholder="enter number" name="contact">
+        <input type="file"  name="image">
+        <!-- <input type="email" placeholder="enter email" name="email"> -->
+        <input type="radio"  name="gender" value="male"><label>Male</label>
+        <input type="radio" name="gender" value="female"><label>Female</label>
+        <input type="radio" name="gender" value="none"><label>Trnasgenger</label>
+        <input type="checkbox" name="kofi" value="none"><label>Trnasgenger</label>
+        <input type="checkbox" name="kofi" value="none"><label>Trnasgenger</label>
+
+        <textarea name="" id="" cols="30" rows="10"> </textarea>
+        <select name="" id="kofi">
+            <option value="level1"> Level 100</option>
+            <option value="level2"> Level 200</option>
+
+        </select>
+
+
+
+
+        
+
+        
+
+
+        
+        <input type="password" placeholder="enter password" name="password">
+        <input type="submit" value ="Send">
+
+
+    
+
+    </form>
+</body>
+</html>
